@@ -1,0 +1,24 @@
+# keepATODO.com
+# Keep A TODO LIST: (There is always lots of stuff TODO, so just do it ;)
+Examples:
+
+* Completed task logged on 3/1 and completed on 3/2
+** DONE [x] (devmattm@gmail.com)<2017-03-01 Wed> 20170302 Review Patrick's pull request +TodoTxtTouch @github
+CLOSED: [2017-04-28 Fri 09:48]
+
+* High priority new task
+** TODO: [A] (devmattm@gmail.com)20170301 20170302  This is the text of my TODO item. +HCVProject @gitrepo(location, etc..)
+- [ ] 
+- [ ] 
+
+* Medium priority new task
+** TODO [B] (devmattm@gmail.com)<2017-04-28 Fri> As a first time user of this tool, I would like better documentation on what the tool is and how to use it in order to feel confident when I go to use it. +docs 
+- [ ] Good description of what the tool does
+- [ ] How to invoke it.
+** TODO [B] (devmattm@gmail.com)<2017-04-28 Fri> As a developer, I want to be confident that my changes didn't break anything in order to keep rapid development.
+- [ ] Write unit tests 
+* Low priority task
+** TODO: [C] (devmattm@gmaviews/il.com)20170301 20170302 This is the text of my TODO item. +context @webserver
+** TODO: [C] (devmattm@gmail.com)2017
+** TODO: [C] (devmattm@gmail.com)2017
+** TODO: [C] (devmattm@gmail.com)2017

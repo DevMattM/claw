@@ -1,0 +1,35 @@
+# CHANGELOG
+# ref: http://keepachangelog.com/en/0.3.0/
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/)
+and this project adheres to [Semantic Versioning](http://semver.org/).
+
+Example
+## [0.0.x] 2017-04-26
+### Added
+  - Add LICENSE file
+### Changed
+  - Changed LICENSE from MIT to Apache
+### Fixed
+  - Fixed the missing copyright details in LICENSE file
+
+## [1.1.0] 2017-04-26
+ * Created Authors file, changed the license to APACHE2, and renamed readme (Matthew McConnell)
+ * Uses the connection context to ensure it closes properly if failure (code cleanup) (Matthew McConnell)
+ * Closes #2. Version number is now a hardcoded string on top of the file, also updated to version 1.1.0 (Matthew McConnell)
+ * Allows getting multiple files using a list in the settings (Matthew McConnell)
+ * closes #3. Removes the need to ssh into a server before using claw (Matthew McConnell)
+ * Clean up unnecessary files (Matthew McConnell)
+ * update gitignore (Matthew McConnell)
+ * proper config file (Patrick White)
+ * made changes to make it work (Patrick White)
+ * fixed typo (Patrick White)
+ * added more dependencies (Patrick White)
+ * pip installable and command line runnable (Patrick White)
+ * Create LICENSE (DevMattM)
+ * New file structure, placing the Claw program files inside a new directory, preparing for PIP requirements (Matthew McConnell)
+ * Update README.md (DevMattM)
+ * Update README.md (DevMattM)
+ * Initial commit (DevMattM)
+ * Initial commit (Matthew McConnell)
