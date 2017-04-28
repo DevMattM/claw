@@ -13,6 +13,14 @@ Example
   - Changed LICENSE from MIT to Apache
 ### Fixed
   - Fixed the missing copyright details in LICENSE file
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+
+## [1.2.0] 2017-04-28
+### Summary
+ - New open source docs were added to the project and the license was updated.
+### Added
+ * Created Authors file, changed the license to APACHE2, and renamed readme (Matthew McConnell)
 
 ## [1.1.0] 2017-04-26
  * Created Authors file, changed the license to APACHE2, and renamed readme (Matthew McConnell)
