@@ -1,4 +1,3 @@
-VER = '1.1.0'
 docstr = """The Claw.
 This module is used to connect to an sftp server and download a file
 
@@ -32,12 +31,13 @@ from claw.version import __version__
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-def main(args=docopt(docstr)):
+def main():
     """
     Creates the connection, pulls a file, and closes the connection
 
     args: a dictionary containing the required parametes for sftp
     """
+    args = docopt(docstr, version=__version__)
     config_path = args.get('<config_file>', None)
     if config_path:
         with open(config_path, 'r') as config_file:
@@ -120,5 +120,4 @@ def position_claw(host, port,
     return connection_details
 
 if __name__ == '__main__':
-    arguments = docopt(docstr, version=__version__)
-    main(arguments)
+    main()
