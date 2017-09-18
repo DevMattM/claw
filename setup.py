@@ -1,7 +1,14 @@
 from setuptools import setup
 
+#bring in __version__ from sourcecode
+#per https://stackoverflow.com/a/17626524
+#and https://stackoverflow.com/a/2073599
+
+with open('claw/version.py') as ver:
+    exec(ver.read())
+
 setup(name='claw',
-      version='1.2.0',
+      version=__version__,
       description='The Claw - Used to download remote files via SFTP',
       url='http://github.com/devmattm/claw',
       author='Matthew McConnell',
@@ -14,5 +21,9 @@ setup(name='claw',
               'claw = claw.claw:main',
           ],
       },
-      install_requires=['docopt', 'pyyaml', 'pysftp'],
+      install_requires=[
+          'docopt==0.6.2',
+          'pyyaml==3.12',
+          'pysftp==0.2.9',
+      ],
       zip_safe=False)
