@@ -27,6 +27,7 @@ from paramiko.ssh_exception import SSHException, BadAuthenticationType
 
 import yaml
 from docopt import docopt
+from claw.version import __version__
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -119,5 +120,5 @@ def position_claw(host, port,
     return connection_details
 
 if __name__ == '__main__':
-    arguments = docopt(docstr, version=VER)
+    arguments = docopt(docstr, version=__version__)
     main(arguments)
