@@ -18,7 +18,7 @@ setup(name='claw',
       include_package_data=True,
       entry_points={
           'console_scripts': [
-              'claw = claw.claw:main',
+              'claw = claw.__main__:cli_run',
           ],
       },
       install_requires=[
